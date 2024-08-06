@@ -1,4 +1,4 @@
-# **SYN-PBOX: A Large Scale Benchmark Dataset for 3D Box-shaped Object Recognition in Scene Understanding of Bin Picking**
+# SYN-PBOX: A Large Scale Benchmark Dataset for 3D Box-shaped Object Recognition in Scene Understanding of Bin Picking
 
 ![the emample of SYN-PBOX](https://github.com/ccteaher/projects-SYN-PBOX/blob/main/example/SYN-PBOX.gif)
 
