@@ -13,9 +13,7 @@ You can download the real world dataset (Real-PBOX) set from Link(https://pan.ba
 
 # Dataset Structure
 
-<com.cheng.treelayout.TreeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+<com.cheng.treelayout.TreeLayout android:layout_width="match_parent" android:layout_height="match_parent">
 
     <TextView
         android:layout_width="match_parent"
