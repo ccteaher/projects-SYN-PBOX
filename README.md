@@ -5,7 +5,7 @@
 # Installation
 Create custom conda environment and activate it.Before that, you need to install [blenderproc](https://github.com/DLR-RM/BlenderProc).
 
-    conda env create -f environment.yml
+    conda create -n you_SYN_PBOX_env
     conda activate you_SYN_PBOX_env
 
 Prerequisites : anaconda3, Ubuntu 20.04, Python 3.10. Using GPU can process datasets more quickly.
