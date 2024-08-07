@@ -59,4 +59,4 @@ The dataset have the following structure:
 
 
 # Objects
-
+![the emample of SYN-PBOX](https://github.com/ccteaher/projects-SYN-PBOX/blob/main/example/images/fig2.png)
