@@ -24,7 +24,7 @@ A supplementary video on suction grasping box-shaped objects.
 ![the emample of SYN-PBOX](https://github.com/ccteaher/projects-SYN-PBOX/blob/main/example/images/fig7.png)
 After setting up your environment, you can use the following methods to quickly generate data.
 
-    blenderproc run ./folder/you_scripts.py ./folder/you_scene_models.blend  ./folder/you_output BopDataset
+    python ./folder/you_scripts.py ./folder/you_scene_models.blend  ./folder/you_output BopDataset
 
 ## Dataset Annotations
 ![the emample of SYN-PBOX](https://github.com/ccteaher/projects-SYN-PBOX/blob/main/example/images/fig_4.png)
