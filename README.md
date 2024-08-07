@@ -11,6 +11,11 @@ You can download the real world dataset (Real-PBOX) set from Link(https://pan.ba
 # SYN-PBOX - Supplemental Video
 [![Watch the video](https://github.com/ccteaher/projects-SYN-PBOX/blob/main/video/Supplemental.png)](https://www.youtube.com/watch?v=tk9xEbmGMGg)
 
+# Models
+You can download the models from Link(https://pan.baidu.com/s/1bVI2WHTHcJisZpFIRSyzCQ code:l8rw). 
+
+We advise to use meshlab for viewing the .obj meshes or the .ply files.
+
 # Dataset Structure
 The dataset have the following structure:
     
