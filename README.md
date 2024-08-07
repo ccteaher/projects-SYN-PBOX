@@ -25,7 +25,7 @@ After setting up your environment, you can use the following methods to quickly 
 
     blenderproc run ./folder/you_scripts.py ./folder/you_scene_models.blend  ./folder/you_output BopDataset
 
-
+## Dataset Annotations
 ![the emample of SYN-PBOX](https://github.com/ccteaher/projects-SYN-PBOX/blob/main/example/images/fig_4.png)
 Examples of generated annotations. Three sets of data were selected, from left to right as follows: the RGB image; the depth map; object segmentation: pixel-wise segmentation where different pixel values represent different objects; object surface segmentation: the segmentation of surfaces that are favorable for suction grasping for each object; bounding box: the smallest vertical rectangle that covers all pixels of the object; 6D pose: visualization of the object's pose label in 3D workspace, with 3D position and 3D pose information.
 # Models
