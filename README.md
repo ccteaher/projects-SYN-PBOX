@@ -4,8 +4,10 @@
 
 # Installation
 Create custom conda environment and activate it.
+
     conda env create -f environment.yml
     conda activate metagraspnet_env
+
 Prerequisites : anaconda3, Ubuntu 20.04, Python 3.10. Using GPU can process datasets more quickly.
 
 # Download Dataset
