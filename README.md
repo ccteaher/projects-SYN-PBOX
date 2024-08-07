@@ -3,10 +3,10 @@
 ![the emample of SYN-PBOX](https://github.com/ccteaher/projects-SYN-PBOX/blob/main/example/SYN-PBOX.gif)
 
 # Installation
-Create custom conda environment and activate it.
+Create custom conda environment and activate it.Before that, you need to install [blenderproc](https://github.com/DLR-RM/BlenderProc).
 
     conda env create -f environment.yml
-    conda activate metagraspnet_env
+    conda activate you_SYN_PBOX_env
 
 Prerequisites : anaconda3, Ubuntu 20.04, Python 3.10. Using GPU can process datasets more quickly.
 
