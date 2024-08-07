@@ -2,6 +2,11 @@
 
 ![the emample of SYN-PBOX](https://github.com/ccteaher/projects-SYN-PBOX/blob/main/example/SYN-PBOX.gif)
 
+# Installation
+Create custom conda environment and activate it.
+    conda env create -f environment.yml
+    conda activate metagraspnet_env
+
 # Download Dataset
 ## SYN-PBOX_v2
 You can download the synthetic dataset (SYN-PBOX) from Link(https://pan.baidu.com/s/1mgVtO9FHG-BFoWgxMdCOcg code:8qla). Unzip and save in ./dataset/.
