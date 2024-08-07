@@ -11,6 +11,9 @@ You can download the real world dataset (Real-PBOX) set from Link(https://pan.ba
 # SYN-PBOX - Supplemental Video
 [![Watch the video](https://github.com/ccteaher/projects-SYN-PBOX/blob/main/video/Supplemental.png)](https://www.youtube.com/watch?v=tk9xEbmGMGg)
 
+# Dataset
+![the emample of SYN-PBOX](https://github.com/ccteaher/projects-SYN-PBOX/blob/main/example/images/fig_4.png)
+Examples of generated annotations. Three sets of data were selected, from left to right as follows: the RGB image; the depth map; object segmentation: pixel-wise segmentation where different pixel values represent different objects; object surface segmentation: the segmentation of surfaces that are favorable for suction grasping for each object; bounding box: the smallest vertical rectangle that covers all pixels of the object; 6D pose: visualization of the object's pose label in 3D workspace, with 3D position and 3D pose information.
 # Models
 You can download the models from Link(https://pan.baidu.com/s/1bVI2WHTHcJisZpFIRSyzCQ code:l8rw). 
 
