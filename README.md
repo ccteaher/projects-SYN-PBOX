@@ -12,45 +12,46 @@ You can download the real world dataset (Real-PBOX) set from Link(https://pan.ba
 [![Watch the video](https://github.com/ccteaher/projects-SYN-PBOX/blob/main/video/Supplemental.png)](https://www.youtube.com/watch?v=tk9xEbmGMGg)
 
 # Dataset Structure
+The dataset have the following structure:
+    DATASET_NAME
+    DATA
+    ├─ single
+    │  ├─ obj_OBJ_ID
+    │  │  ├─ OBJ_ID_bop_data
+    │  │  │  ├─ train|val|test[_TYPE]
+    │  │  │  │  ├─ scene_camera.json
+    │  │  │  │  ├─ scene_gt.json
+    │  │  │  │  ├─ scene_gt_info.json
+    │  │  │  │  ├─ depth
+    │  │  │  │  ├─ mask
+    │  │  │  │  ├─ mask_visib
+    │  │  │  │  ├─ rgb|gray
+    │  │  │  ├─ camera[_TYPE].json
+    │  │  ...
+    │  ...
+    ├─ multiple
+    │  ├─ OBJ_ID_bop_data
+    │  │  ├─ train|val|test[_TYPE]
+    │  │  │  ├─ scene_camera.json
+    │  │  │  ├─ scene_gt.json
+    │  │  │  ├─ scene_gt_info.json
+    │  │  │  ├─ depth
+    │  │  │  ├─ mask
+    │  │  │  ├─ mask_visib
+    │  │  │  ├─ rgb|gray
+    │  │  ├─ camera[_TYPE].json
+    │  ...
 
-    ai_VVV_NNN
-    ├── _detail
-    │   ├── metadata_cameras.csv                     
-    │   ├── metadata_node_strings.csv                
-    │   ├── metadata_nodes.csv                      
-    │   ├── metadata_scene.csv                       
-    │   ├── cam_XX                                   
-    │   │   ├── camera_keyframe_orientations.hdf5   
-    │   │   └── camera_keyframe_positions.hdf5       
-    │   ├── ...
-    │   └── mesh                                                                           
-    │       ├── mesh_objects_si.hdf5                                                       
-    │       ├── mesh_objects_sii.hdf5                                                       
-    │       ├── metadata_objects.csv                                                       
-    │       ├── metadata_scene_annotation_tool.log                                          
-    │       ├── metadata_semantic_instance_bounding_box_object_aligned_2d_extents.hdf5      
-    │       ├── metadata_semantic_instance_bounding_box_object_aligned_2d_orientations.hdf5 
-    │       └── metadata_semantic_instance_bounding_box_object_aligned_2d_positions.hdf5    
-    └── images
-        ├── scene_cam_XX_final_hdf5                  
-        │   ├── frame.IIII.color.hdf5               
-        │   ├── frame.IIII.diffuse_illumination.hdf5 
-        │   ├── frame.IIII.diffuse_reflectance.hdf5  
-        │   ├── frame.IIII.residual.hdf5             
-        │   └── ...
-        ├── scene_cam_XX_final_preview               
-        |   └── ...
-        ├── scene_cam_XX_geometry_hdf5               
-        │   ├── frame.IIII.depth_meters.hdf5         
-        │   ├── frame.IIII.position.hdf5             
-        │   ├── frame.IIII.normal_cam.hdf5           
-        │   ├── frame.IIII.normal_world.hdf5         
-        │   ├── frame.IIII.normal_bump_cam.hdf5      
-        │   ├── frame.IIII.tex_coord.hdf5            
-        │   └── ...
-        ├── scene_cam_XX_geometry_preview            
-        |   └── ...
-        └── ...
+    MODELS
+    ├─ camera[_TYPE].json
+    ├─ models[_MODELTYPE][_eval]
+    │  ├─ obj_OBJ_ID.png
+    │  ├─ obj_OBJ_ID.mtl
+    │  ├─ obj_OBJ_ID.obj
+    │  ├─ obj_OBJ_ID.ply
+    │  ...
+
+
 
 
 # SYN-PBOX Image
