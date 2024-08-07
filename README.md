@@ -82,11 +82,11 @@ P_m2i = K * [R_m2c, t_m2c] is the camera matrix which transforms 3D point p_m = 
 
 Ground truth bounding boxes and instance masks are also provided in COCO format under scene_gt_coco.json. The RLE format is used for segmentations. Detailed information about the COCO format can be found here.
 
+# Objects
+![the emample of SYN-PBOX](https://github.com/ccteaher/projects-SYN-PBOX/blob/main/example/images/fig2.png)
+The 21 box-shaped objects used in the dataset, each object represents a different categor.All objects could be obtained from online retailers.
 
 # SYN-PBOX Image
 The object models are arranged and rendered in 9 different deployment scenarios, including 3 bin containers (blue plastic logistics turnover boxes, wicker baskets, and wooden boxes) and 3 sites (wooden tables, sofas, and iron coffee tables). The internal lighting is modeled using standard light sources. To generate these scenes, the paper defines the scene background and necessary parameters, where the scenes cover over 800 different high-definition 3D environments, including various terrains and lighting conditions such as industrial warehouses, indoor scenes, tile floors, rocksides, and grasslands.
 ![the emample of SYN-PBOX](https://github.com/ccteaher/projects-SYN-PBOX/blob/main/example/images/fig1.png)
 
-# Objects
-![the emample of SYN-PBOX](https://github.com/ccteaher/projects-SYN-PBOX/blob/main/example/images/fig2.png)
-The 21 box-shaped objects used in the dataset, each object represents a different categor.
