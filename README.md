@@ -56,7 +56,7 @@ The dataset have the following structure:
 
 
 # SYN-PBOX Image
-
+![the emample of SYN-PBOX](https://github.com/ccteaher/projects-SYN-PBOX/blob/main/example/images/fig1.png)
 
 # Objects
 ![the emample of SYN-PBOX](https://github.com/ccteaher/projects-SYN-PBOX/blob/main/example/images/fig2.png)
