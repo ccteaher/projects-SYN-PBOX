@@ -18,7 +18,7 @@ You can download the synthetic dataset (SYN-PBOX_v2) from Link(https://pan.baidu
 You can download the synthetic dataset and the real world dataset(SYN-PBOX_v1) from Link(https://pan.baidu.com/s/1n4dX-3Y_k7Qlg4njU_leoQ code:umph). Unzip and save in ./dataset.
 
 ## SYN-PBOX_D
-You can download the dataset of different depth map coloring modes(SYN-PBOX_depth) from Link(https://pan.baidu.com/s/1EUYfWBp5TQuazAm5F2WX8Q code:vj97). Unzip and save in ./dataset/.
+You can download the dataset(SYN-PBOX_depth) of different depth map coloring modes from Link(https://pan.baidu.com/s/1EUYfWBp5TQuazAm5F2WX8Q code:vj97). Unzip and save in ./dataset/.
 
 # SYN-PBOX - Supplemental Video
 A supplementary video on suction grasping box-shaped objects.
