@@ -3,7 +3,7 @@
 ![the emample of SYN-PBOX](https://github.com/ccteaher/projects-SYN-PBOX/blob/main/example/SYN-PBOX.gif)
 
 # Installation
-Create custom conda environment and activate it.Before that, you need to install [blenderproc](https://github.com/DLR-RM/BlenderProc).
+Create custom conda environment and activate it. Before that, you need to install [blenderproc](https://github.com/DLR-RM/BlenderProc).
 
     conda create -n you_SYN_PBOX_env
     conda activate you_SYN_PBOX_env
@@ -12,9 +12,14 @@ Prerequisites : anaconda3, Ubuntu 20.04, Python 3.10. Using GPU can process data
 
 # Download Dataset
 ## SYN-PBOX_v2
-You can download the synthetic dataset (SYN-PBOX) from Link(https://pan.baidu.com/s/1mgVtO9FHG-BFoWgxMdCOcg code:8qla). Unzip and save in ./dataset/.
+You can download the synthetic dataset (SYN-PBOX_v2) from Link(https://pan.baidu.com/s/1mgVtO9FHG-BFoWgxMdCOcg code:8qla). Unzip and save in ./dataset/.
+
+## SYN-PBOX_D
+You can download the dataset of different depth map coloring modes(SYN-PBOX_depth) from Link(https://pan.baidu.com/s/1EUYfWBp5TQuazAm5F2WX8Q code:vj97). Unzip and save in ./dataset/.
+depth map coloring modes
+
 ## SYN-PBOX_v1
-You can download the real world dataset (Real-PBOX) set from Link(https://pan.baidu.com/s/1n4dX-3Y_k7Qlg4njU_leoQ code:umph). Unzip and save in ./dataset.
+You can download the synthetic dataset and the real world dataset(SYN-PBOX_v1) from Link(https://pan.baidu.com/s/1n4dX-3Y_k7Qlg4njU_leoQ code:umph). Unzip and save in ./dataset.
 
 # SYN-PBOX - Supplemental Video
 A supplementary video on suction grasping box-shaped objects.
